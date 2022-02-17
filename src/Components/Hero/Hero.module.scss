@@ -1,0 +1,31 @@
+@import '../../General.scss';
+
+.wrap {
+	height: 640px;
+	background-image: url('../../../public/assets/hero-bg.png');
+	background-size: cover;
+	background-position: center;
+	padding-top: 120px;
+}
+
+.content {
+	max-width: 400px;
+	color: white;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 31px;
+	line-height: 38px;
+	margin-bottom: 70px;
+	max-width: 340px;
+}
+
+.description {
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.btn_wrap {
+	margin-top: 50px;
+}
