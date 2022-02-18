@@ -4,7 +4,7 @@ import { Button } from '../Button/Button';
 
 export const Hero = () => {
 	return (
-		<div className={styles.wrap}>
+		<section className={styles.wrap}>
 			<div className={styles.container}>
 				<div className={styles.content}>
 					<h1>Профессионально позаботимся о вашей улыбке</h1>
@@ -16,6 +16,6 @@ export const Hero = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
