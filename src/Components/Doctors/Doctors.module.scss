@@ -1,0 +1,20 @@
+@import '../../General.scss';
+
+.wrap {
+	h2 {
+		max-width: 280px;
+	}
+}
+
+.doctors_wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.doctor_inner {
+	width: 23%;
+
+	img {
+		width: 100%;
+	}
+}
