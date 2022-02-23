@@ -13,17 +13,17 @@ export const Doctors = () => {
 			position: 'Стоматолог-терапевт',
 		},
 		{
-			img: doctor1,
+			img: doctor2,
 			name: 'Петровский Егор Павлович',
 			position: 'Стоматолог-гигиенист',
 		},
 		{
-			img: doctor1,
+			img: doctor3,
 			name: 'Ковш Ирина Владимировна',
 			position: 'Стоматолог-хирург',
 		},
 		{
-			img: doctor1,
+			img: doctor4,
 			name: 'Михайлов Михаил Михайлович',
 			position: 'Стоматолог-стоматолог',
 		},
@@ -53,6 +53,7 @@ const Doctor = ({ img, name, position }) => {
 		<div className={styles.doctor_inner}>
 			<div className={styles.img_wrap}>
 				<img src={img} alt="Доктор" />
+				<div className={styles.img_bg}></div>
 			</div>
 			<div className={styles.doctor_content}>
 				<h3>{name}</h3>
