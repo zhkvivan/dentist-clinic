@@ -3,13 +3,17 @@
 .wrap {
 	h2 {
 		max-width: 280px;
+		background: linear-gradient(45deg, #134242, #600762);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		margin-bottom: 75px;
 	}
 }
 
 .doctors_wrap {
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 100px;
+	padding-bottom: 130px;
 }
 
 .doctor_inner {
@@ -25,6 +29,7 @@
 
 	.doctor_content {
 		padding: 0 20px;
+		padding-bottom: 20px;
 	}
 
 	img {
