@@ -2,8 +2,6 @@
 
 .wrap {
 	min-height: 660px;
-	// position: relative;
-	// z-index: -1;
 	margin-top: -120px;
 	padding-top: 200px;
 
@@ -13,6 +11,10 @@
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		margin-bottom: 75px;
+		@include responsive(974px) {
+			width: unset;
+			text-align: center;
+		}
 	}
 }
 
@@ -29,10 +31,21 @@
 	max-width: 47%;
 	margin-bottom: 70px;
 
+	@include responsive(830px) {
+		flex-direction: column;
+	}
+
+	@include responsive(530px) {
+		max-width: 100%;
+	}
+
 	img {
 		margin-right: 35px;
 		width: 60px;
 		height: 60px;
+		@include responsive(830px) {
+			margin-bottom: 30px;
+		}
 	}
 
 	h3 {
