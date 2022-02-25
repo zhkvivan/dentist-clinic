@@ -57,7 +57,7 @@ export const Features = () => {
 const Card = ({ heading, description, icon }) => {
 	return (
 		<div className={styles.card_inner}>
-			<img src={icon} alt="Доктор" />
+			<img src={icon} alt={icon} />
 			<div className={styles.card_content}>
 				<h3>{heading}</h3>
 				<p>{description}</p>
