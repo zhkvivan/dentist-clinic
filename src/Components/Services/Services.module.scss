@@ -1,6 +1,7 @@
 @import '../../General.scss';
 
 .wrap {
+	position: relative;
 	padding: 95px 0;
 	background-image: linear-gradient(
 			180deg,
@@ -111,4 +112,25 @@
 			color: white;
 		}
 	}
+}
+
+.custom-shape-divider-bottom-1645806509 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1645806509 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 58px;
+}
+
+.custom-shape-divider-bottom-1645806509 .shape-fill {
+	fill: #ffffff;
 }
