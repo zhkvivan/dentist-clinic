@@ -14,7 +14,6 @@ export const Reviews = () => {
 			name: 'Елена',
 			reviewText:
 				'Нужно было провести диагностику зубов, Искала долго подходящую клинику. В этой сделали все очень качественно и недрого, что немаловажно. Приду еще раз.',
-			selected: false,
 		},
 		{
 			id: 1,
@@ -22,7 +21,6 @@ export const Reviews = () => {
 			name: 'Игорь',
 			reviewText:
 				'В принципе неплохая клиника. Цены тоже ниче так. Но как по мне, персонал мог быть и получше)',
-			selected: true,
 		},
 		{
 			id: 2,
@@ -37,11 +35,16 @@ export const Reviews = () => {
 			photo: portrait4,
 			name: 'Олежек',
 			reviewText: 'Хорошая шиномонтажка! Ой, не туда.',
-			selected: false,
+		},
+		{
+			id: 4,
+			photo: portrait5,
+			name: 'Тётенька',
+			reviewText: 'Меня всё устраивает',
 		},
 	];
 
-	const [currentReview, setCurrentReview] = useState(reviewsArr[1]);
+	const [currentReview, setCurrentReview] = useState(reviewsArr[2]);
 	return (
 		<section className={styles.wrap}>
 			<div className={styles.container}>

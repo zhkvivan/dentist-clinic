@@ -26,6 +26,7 @@
 	cursor: pointer;
 	margin: 15px;
 	transition: all 0.5s ease;
+	border-radius: 50%;
 
 	.photo_bg {
 		position: absolute;
@@ -41,12 +42,14 @@
 .photo {
 	width: 100%;
 	height: 100%;
+	border-radius: 50%;
 }
 
 .photo_wrap_selected {
 	width: 120px;
 	height: 120px;
 	transition: all 0.5s ease;
+	border-radius: 50%;
 }
 
 .review_wrap {
