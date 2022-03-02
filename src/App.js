@@ -6,6 +6,7 @@ import { Features } from './Components/Features/Features';
 import { Services } from './Components/Services/Services';
 import { Reviews } from './Components/Reviews/Reviews';
 import { QnA } from './Components/QnA/QnA';
+import { Map } from './Components/Map/Map';
 
 const App = () => {
 	return (
@@ -17,6 +18,7 @@ const App = () => {
 			<Services />
 			<Reviews />
 			<QnA />
+			<Map />
 		</>
 	);
 };
